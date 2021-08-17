@@ -10,7 +10,7 @@
 //SoftwareSerial ardNanoSerial(3, 2);
 
 WifiConnection wifi;
-BlynkManager blynkManager{"LBcF_gA6tQ86lwFEOxqUtfMpHwXgxmGr", "blynkserver.recepselim.tech", 8080};
+BlynkManager blynkManager{"passwordC", "domainname.com", 8080};
 CommunicationManager comm(Serial, blynkManager);
 
 void setup()
